@@ -1,0 +1,23 @@
+env: "local"
+
+server:
+  Port: :8000
+  Timeout: 15
+  ReadTimeout: 5
+  WriteTimeout: 5
+
+mongodb:
+  databaseName: toDo
+  MONGO_URI: mongodb://localhost:27017
+  MONGO_USER: admin
+
+redis:
+  RedisAddr: localhost:6379
+  RedisPassword:
+  RedisDb: 0
+  RedisDefaultdb: 0
+  MinIdleConns: 200
+  PoolSize: 12000
+  PoolTimeout: 240
+  Password: ""
+  DB: 0
